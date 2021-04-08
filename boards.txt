@@ -46,6 +46,13 @@ Generic_nRF52805.menu.softdevice.none=None
 Generic_nRF52805.menu.softdevice.none.softdevice=none
 Generic_nRF52805.menu.softdevice.none.softdeviceversion=
 
+Generic_nRF52805.menu.softdevice.s112=S112
+Generic_nRF52805.menu.softdevice.s112.softdevice=s112
+Generic_nRF52805.menu.softdevice.s112.softdeviceversion=7.2.0
+Generic_nRF52805.menu.softdevice.s112.upload.maximum_size=196608
+Generic_nRF52805.menu.softdevice.s112.build.extra_flags=-DNRF52805_XXAA -DS112 -DNRF52_S112
+Generic_nRF52805.menu.softdevice.s112.build.ldscript=armgcc_s112_nrf52805_xxaa.ld
+
 Generic_nRF52805.menu.lfclk.lfxo=Crystal Oscillator
 Generic_nRF52805.menu.lfclk.lfxo.build.lfclk_flags=-DUSE_LFXO
 Generic_nRF52805.menu.lfclk.lfrc=RC Oscillator
